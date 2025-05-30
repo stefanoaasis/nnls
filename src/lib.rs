@@ -3,6 +3,7 @@
 
 use ndarray::{s, Array1, Array2, ArrayView1, ArrayView2, ArrayViewMut1, Zip};
 use ndarray_stats::QuantileExt;
+pub use ndarray;
 
 const FACTOR: f64 = 0.01;
 
